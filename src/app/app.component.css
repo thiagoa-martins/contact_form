@@ -2,4 +2,5 @@
     background-color: var(--white);
     width: 50%;
     margin: auto;
+    border-radius: 1rem;
 }
