@@ -1,3 +1,10 @@
+.modal {
+    background-color: var(--white);
+    width: 50%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
 form {
     padding: 2rem;
 }
@@ -20,7 +27,23 @@ form .from-the-side {
     margin-bottom: 1rem;
 }
 
-
 form span {
     display: block;
+}
+
+.btn-submit {
+    display: block;
+    background-color: var(--primary-green600);
+    color: var(--white);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: hsl(169, 81%, 33%);
+    transition: 400ms;
 }

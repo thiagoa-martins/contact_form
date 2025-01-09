@@ -1,45 +1,47 @@
-<form>
-    <h1>Contact Us</h1>
+<div class="modal">
+    <form>
+        <h1>Contact Us</h1>
 
-    <fieldset class="from-the-side">
-        <label> <span>First Name *</span>
+        <fieldset class="from-the-side">
+            <label> <span>First Name *</span>
+                <input type="text">
+            </label>
+            <!--This field is required-->
+
+            <label> <span>Last Name *</span>
+                <input type="text">
+            </label>
+        </fieldset>
+
+        <label> <span>Email Address *</span>
             <input type="text">
         </label>
-        <!--This field is required-->
 
-        <label> <span>Last Name *</span>
-            <input type="text">
+        <!--Please enter a valid email address-->
+
+        <fieldset class="from-the-side"> Query Type *
+            <label> General Enquiry
+                <input type="radio" name="query">
+            </label>
+            <label> Support Request
+                <input type="radio" name="query">
+            </label>
+        </fieldset>
+
+        <!--Please select a query type-->
+
+        <label> Message *
+            <textarea></textarea>
         </label>
-    </fieldset>
 
-    <label> <span>Email Address *</span>
-        <input type="text">
-    </label>
-
-    <!--Please enter a valid email address-->
-
-    <fieldset class="from-the-side"> Query Type *
-        <label> General Enquiry
-            <input type="radio" name="query">
+        <label>
+            <input type="checkbox"> I consent to being contacted by the team
         </label>
-        <label> Support Request
-            <input type="radio" name="query">
-        </label>
-    </fieldset>
+        <!--To submit this form, please consent to being contacted-->
 
-    <!--Please select a query type-->
+        <button class="btn-submit">Submit</button>
 
-    <label> Message *
-        <textarea></textarea>
-    </label>
-
-    <label>
-        <input type="checkbox"> I consent to being contacted by the team
-    </label>
-    <!--To submit this form, please consent to being contacted-->
-
-    <button>Submit</button>
-
-    <!--Message Sent!
+        <!--Message Sent!
     Thanks for completing the form. We'll be in touch soon!-->
-</form>
+    </form>
+</div>
